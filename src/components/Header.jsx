@@ -6,7 +6,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className=" bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-md">
+    <header className="font-times bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-md">
       
       {/* === Ligne 1 : Logo toujours centré === */}
       <div className="px-6 flex justify-center items-center">
@@ -15,14 +15,14 @@ export default function Header() {
           alt="logo"
           className="w-[60px] h-[60px] rounded-full object-cover mr-2 mt-4"
         />
-        <span className="text-3xl font-bold">Le Perroquet</span>
+        <span className="text-4xl font-bold">Le Perroquet</span>
       </div>
 
       {/* === Ligne 2 : navigation + actions === */}
       <div className=" flex items-center justify-between lg:justify-between py-6  px-6">
 
         {/* MENU GAUCHE (Desktop) */}
-        <nav className="hidden lg:flex gap-6 text-sm font-medium">
+        <nav className="hidden lg:flex gap-6 text-xl font-medium ml-6">
           <a href="#" className="hover:underline">Accueil</a>
           <a href="#" className="hover:underline">Politique ▼</a>
           <a href="#" className="hover:underline">Sports ▼</a>

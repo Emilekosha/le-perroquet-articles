@@ -5,7 +5,7 @@ import { articles } from "./data/articles";
 
 function App() {
   return (
-    <div className=" min-h-screen">
+    <div className=" min-h-screen bg-slate-50">
       <Header />
       <main className="max-w-7xl mx-auto p-6 grid gap-6 md:grid-cols-1 lg:grid-cols-1">
         {articles.map((article) => (
